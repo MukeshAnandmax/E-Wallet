@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7b26af4-3adf-4633-84c6-f5f3a606345c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/User/User.java" afterDir="false" />
+    <list default="true" id="f7b26af4-3adf-4633-84c6-f5f3a606345c" name="Changes" comment="User entity and Repository added">
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/KafkaConsumerConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Transaction/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Transaction/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Transaction/TransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Transaction/TransactionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Transaction/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Transaction/TransactionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Transaction/TransactionUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/User/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Wallet/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Wallet/WalletRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Wallet/WalletRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-wallet/src/main/java/com/practice/Ewallet/Wallet/WalletService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-wallet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/E-wallet/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +52,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.practice.Ewallet" />
+      <recent name="com.practice.Ewallet.Wallet" />
+      <recent name="com.practice.Ewallet.Transaction" />
       <recent name="com.practice.Ewallet.User" />
     </key>
   </component>
@@ -85,6 +100,30 @@
       <option name="presentableId" value="Default" />
       <updated>1693847540113</updated>
     </task>
+    <task id="LOCAL-00001" summary="User entity and Repository added">
+      <option name="closed" value="true" />
+      <created>1694242946894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694242946894</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="User entity and Repository added" />
+    <option name="LAST_COMMIT_MESSAGE" value="User entity and Repository added" />
   </component>
 </project>
