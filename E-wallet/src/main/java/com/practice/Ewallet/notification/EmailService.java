@@ -22,7 +22,7 @@ public class EmailService {
         simpleMailMessage.setText(email.getMessage());
         simpleMailMessage.setTo(email.getTo());
         simpleMailMessage.setSubject("Transaction Report");
-        simpleMailMessage.setFrom("geekstutorialemail2020@gmail.com");
+        simpleMailMessage.setFrom("mukesh.lncts.cse@gmail.com");
         javaMailSender.send(simpleMailMessage);
     }
 

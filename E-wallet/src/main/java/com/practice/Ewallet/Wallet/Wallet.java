@@ -16,4 +16,9 @@ public class Wallet {
     Long id;
     String userId;
     Double balance;
+
+    public Wallet(String userId, double balance) {
+        this.balance =balance;
+        this.userId =userId;
+    }
 }

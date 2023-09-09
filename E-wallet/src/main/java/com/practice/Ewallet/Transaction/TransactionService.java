@@ -80,7 +80,7 @@ public class TransactionService {
 
         EmailRequest emailRequest = new EmailRequest();
         emailRequest.setTo(user.getEmail());
-        emailRequest.setMessage(String.format("Hi %s Your transactionId %s got %s . Sent %s money to %s user",
+        emailRequest.setMessage(String.format("Hi %s Your transactionId %s got %s . Sent %s money to %s ",
                 user.getUserId(),transaction.getExternalId(),transaction.getStatus(), transaction.getAmount().toString(), transaction.getToUser()));
         kafkaTemplate.send("email",objectMapper.writeValueAsString(emailRequest));
 
@@ -94,7 +94,9 @@ public class TransactionService {
 
             emailRequest = new EmailRequest();
             emailRequest.setTo(receiver.getEmail());
-            emailRequest.setMessage(String.format("Hi %s you received  %s money from %s ", receiver.getUserId(),
+           /* emailRequest.setMessage(String.format("Hi %s you received  %s money from %s ", receiver.getUserId(),
+                    transaction.getAmount(), transaction.getFromUser()));*/
+            emailRequest.setMessage(String.format("Hi %s you received  %s money from %s  \n \n \n \n  Hi qt this is a sample mail genrated from my new Ewallet project, hehehehheehe....  byeeeeee!!!!! muahhh muaahhhh muaahhhhhh...!", receiver.getUserId(),
                     transaction.getAmount(), transaction.getFromUser()));
 
             kafkaTemplate.send("email", objectMapper.writeValueAsString(emailRequest));
